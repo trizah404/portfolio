@@ -1,3 +1,15 @@
+function toggleMenu(){
+  const links = document.getElementById('nav-links');
+  const ham = document.getElementById('hamburger');
+  links.classList.toggle('open');
+  ham.classList.toggle('active');
+}
+document.querySelectorAll('.nav-links a').forEach(a => {
+  a.addEventListener('click', () => {
+    document.getElementById('nav-links').classList.remove('open');
+    document.getElementById('hamburger').classList.remove('active');
+  });
+});
 const cursor=document.getElementById('cursor');
 const ring=document.getElementById('cursorRing');
 let mx=0,my=0,rx=0,ry=0;

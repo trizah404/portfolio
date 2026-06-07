@@ -25,7 +25,6 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .nav-cta{border:1px solid rgba(245,196,0,0.25)!important;color:var(--yellow)!important;padding:0.5rem 1.1rem;font-family:'Syne',sans-serif;font-weight:700;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;transition:all 0.2s!important}
 .nav-cta:hover{background:var(--yellow)!important;color:var(--bg)!important;border-color:var(--yellow)!important}
 
-/* HERO */
 .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding:0 5rem 4rem;position:relative;overflow:hidden}
 .hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(245,196,0,0.018) 1px,transparent 1px),linear-gradient(90deg,rgba(245,196,0,0.018) 1px,transparent 1px);background-size:80px 80px;pointer-events:none}
 .hero-bg-grad{position:absolute;inset:0;background:radial-gradient(ellipse 60% 60% at 75% 40%,rgba(245,196,0,0.05) 0%,transparent 70%);pointer-events:none}
@@ -43,14 +42,12 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .hero-socials a{font-size:0.67rem;color:var(--muted);text-decoration:none;letter-spacing:0.12em;text-transform:uppercase;transition:color 0.2s}
 .hero-socials a:hover{color:var(--yellow)}
 
-/* QUOTE */
 .quote-section{padding:5rem 5rem;border-top:1px solid var(--border);display:flex;align-items:center;gap:3rem;background:var(--bg2);position:relative;overflow:hidden}
 .quote-section::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 80% at 0% 50%,rgba(245,196,0,0.04) 0%,transparent 70%);pointer-events:none}
 .quote-line{width:56px;height:1px;background:var(--yellow);flex-shrink:0}
 .quote-text{font-family:'Syne',sans-serif;font-size:clamp(1rem,1.8vw,1.4rem);font-weight:600;color:var(--white);line-height:1.5;letter-spacing:-0.01em}
 .quote-author{font-size:0.75rem;color:var(--muted2);margin-top:0.7rem;letter-spacing:0.08em}
 
-/* STATS — clean bordered boxes */
 .stats{padding:4rem 5rem;background:var(--bg);display:grid;grid-template-columns:repeat(4,1fr);gap:1.25rem;position:relative;overflow:hidden}
 .stats::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 100% at 50% 50%,rgba(245,196,0,0.025) 0%,transparent 70%);pointer-events:none}
 .stat-box{border:1px solid var(--border);padding:2.25rem 1.75rem;position:relative;z-index:1;transition:border-color 0.3s}
@@ -58,7 +55,6 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .stat-num{font-family:'Bebas Neue',sans-serif;font-size:3.8rem;color:var(--yellow);line-height:1;margin-bottom:0.4rem;display:block;letter-spacing:0.02em}
 .stat-label{font-size:0.7rem;color:var(--muted2);letter-spacing:0.05em;line-height:1.6}
 
-/* ABOUT */
 .about{padding:7rem 5rem;background:var(--bg2);display:grid;grid-template-columns:0.6fr 1fr;gap:8rem;align-items:start;position:relative;overflow:hidden}
 .about::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 100% 100%,rgba(245,196,0,0.03) 0%,transparent 60%);pointer-events:none}
 .section-eyebrow{font-size:0.67rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted2);display:flex;align-items:center;gap:0.75rem;margin-bottom:1.5rem}
@@ -73,7 +69,6 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .about-edu-text{font-size:0.8rem;color:var(--muted2);line-height:1.6}
 .about-edu-text strong{color:var(--white);font-weight:500;display:block;margin-bottom:0.15rem}
 
-/* PROJECTS — small boxes like stats */
 .projects{padding:7rem 5rem;background:var(--bg);position:relative;overflow:hidden}
 .projects::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 50% 0%,rgba(245,196,0,0.03) 0%,transparent 60%);pointer-events:none}
 .section-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:3rem;position:relative;z-index:1}
@@ -95,7 +90,6 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .project-link:hover{color:var(--yellow)}
 .project-link svg{width:10px;height:10px;stroke:currentColor;fill:none;stroke-width:2.5}
 
-/* SKILLS */
 .skills{padding:7rem 5rem;background:var(--bg2);position:relative;overflow:hidden}
 .skills::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 100% 50%,rgba(245,196,0,0.03) 0%,transparent 60%);pointer-events:none}
 .skills-inner{display:grid;grid-template-columns:0.5fr 1fr;gap:6rem;align-items:start;position:relative;z-index:1}
@@ -107,7 +101,6 @@ nav{position:fixed;top:0;left:0;right:0;padding:1.75rem 5rem;display:flex;justif
 .pill{font-size:0.76rem;padding:0.4rem 0.9rem;border:1px solid var(--border);color:var(--muted2);letter-spacing:0.02em;transition:all 0.2s;cursor:default;border-radius:100px}
 .pill:hover{border-color:rgba(245,196,0,0.25);color:var(--white)}
 
-/* CONTACT */
 .contact{background:var(--bg);padding:7rem 5rem;position:relative;overflow:hidden}
 .contact::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 0% 100%,rgba(245,196,0,0.04) 0%,transparent 65%);pointer-events:none}
 .contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:6rem;position:relative;z-index:1}
@@ -133,72 +126,37 @@ footer p{font-size:0.67rem;color:var(--muted);letter-spacing:0.05em}
 .fade-up{opacity:0;transform:translateY(18px);transition:opacity 0.75s ease,transform 0.75s ease}
 .fade-up.visible{opacity:1;transform:translateY(0)}
 
-
-  .hero{padding:0 2rem 3rem}
-  .hero-socials{display:none}
-  .quote-section,.stats,.about,.projects,.skills,.contact{padding:4rem 2rem}
-  .quote-section{flex-direction:column;gap:1.5rem}
-  .stats{grid-template-columns:1fr 1fr}
-  .about{grid-template-columns:1fr;gap:3rem}
-  .projects-grid{grid-template-columns:1fr}
-  .skills-inner{grid-template-columns:1fr;gap:3rem}
-  .contact-inner{grid-template-columns:1fr;gap:3rem}
-  .section-header{flex-direction:column;align-items:flex-start;gap:1rem}
-  footer{flex-direction:column;gap:1rem;padding:2rem;text-align:center}
-
 @media(max-width:768px){
-  /* NAV */
+  body{cursor:auto}
+  .cursor,.cursor-ring{display:none}
   nav{padding:1.2rem 1.5rem}
   .nav-links a:not(.nav-cta){display:none}
   .nav-cta{font-size:0.65rem;padding:0.45rem 0.85rem}
-
-  /* HERO */
-  .hero{padding:0 1.5rem 3rem;min-height:100vh}
+  .hero{padding:0 1.5rem 3rem}
   #math-overlay{display:none}
-  .hero-hi{font-size:0.72rem}
-  .hero-name{font-size:clamp(4.5rem,22vw,7rem)}
-  .hero-subtitle{font-size:0.72rem;letter-spacing:0.06em;margin-top:1rem}
+  .hero-name{font-size:clamp(4.5rem,20vw,7rem)}
+  .hero-subtitle{font-size:0.72rem;margin-top:1rem}
   .hero-btns{margin-top:1.5rem}
   .btn-primary{padding:0.75rem 1.5rem;font-size:0.72rem}
   .hero-socials{display:none}
-
-  /* QUOTE */
   .quote-section{padding:3rem 1.5rem;flex-direction:column;gap:1.25rem}
   .quote-text{font-size:1rem}
-
-  /* STATS */
   .stats{padding:2rem 1.5rem;grid-template-columns:1fr 1fr;gap:1rem}
   .stat-box{padding:1.5rem 1.25rem}
   .stat-num{font-size:2.8rem}
   .stat-label{font-size:0.65rem}
-
-  /* ABOUT */
   .about{padding:4rem 1.5rem;grid-template-columns:1fr;gap:2rem}
-  .about-left .section-title{font-size:2rem}
   .about-right p{font-size:0.88rem}
-
-  /* PROJECTS */
   .projects{padding:4rem 1.5rem}
   .section-header{flex-direction:column;align-items:flex-start;gap:1rem}
   .projects-grid{grid-template-columns:1fr;gap:1rem}
   .project-card{padding:1.75rem 1.5rem}
-  .project-name{font-size:1rem}
-  .project-desc{font-size:0.78rem}
-
-  /* SKILLS */
   .skills{padding:4rem 1.5rem}
   .skills-inner{grid-template-columns:1fr;gap:2.5rem}
-  .skill-group{margin-bottom:2rem}
-
-  /* CONTACT */
   .contact{padding:4rem 1.5rem}
   .contact-inner{grid-template-columns:1fr;gap:2.5rem}
   .contact-left h2{font-size:2rem}
-  .contact-left p{font-size:0.83rem}
-  .contact-email{font-size:0.78rem;word-break:break-all}
-  .send-btn{font-size:0.72rem;padding:1rem 1.25rem}
-
-  /* FOOTER */
+  .contact-email{font-size:0.75rem;word-break:break-all}
   footer{flex-direction:column;gap:1rem;padding:1.5rem;text-align:center}
   .footer-links{gap:1.25rem}
 }
